@@ -2,25 +2,39 @@
 
 - [Sublime Text](#sublime-text)
   - [Плагины Sublime Text](#%D0%9F%D0%BB%D0%B0%D0%B3%D0%B8%D0%BD%D1%8B-sublime-text)
-    - перечисление с описанием
+    - [SFTP](#sftp)
+    - [Sidebar Enhancements](#sidebar-enhancements)
+    - [Emmet](#emmet)
+    - [Auto File Name](#auto-file-name)
+    - [Color Highlighter](#color-highlighter)
+    - [Advanced New File](#advanced-new-file)
+    - [Golden Ratio](#golden-ratio)
 - [Git](#git)
-- [Node.js](#nodejs)
-  - [Пакеты node.js](#%D0%9F%D0%B0%D0%BA%D0%B5%D1%82%D1%8B-nodejs)
-    - перечисление с описанием
+- [Node.js](#%D0%9F%D0%B0%D0%BA%D0%B5%D1%82%D1%8B-nodejs--npm)
+    - [bower](#bower)
+    - [gulp](#gulp)
+    - [jscs](#jscs)
 - [Консоль](#%D0%9A%D0%BE%D0%BD%D1%81%D0%BE%D0%BB%D1%8C)
   - [Дополнения](#%D0%94%D0%BE%D0%BF%D0%BE%D0%BB%D0%BD%D0%B5%D0%BD%D0%B8%D1%8F)
-    - перечисление с описанием
+    - [ConEmu](conemu)
+    - [Clink](#clink)
+    - [Настройка консоли, алиасы, функции](#%D0%9D%D0%B0%D1%81%D1%82%D1%80%D0%BE%D0%B9%D0%BA%D0%B0-%D0%BA%D0%BE%D0%BD%D1%81%D0%BE%D0%BB%D0%B8-%D0%B0%D0%BB%D0%B8%D0%B0%D1%81%D1%8B-%D1%84%D1%83%D0%BD%D0%BA%D1%86%D0%B8%D0%B8)
 - [Wox](#wox)
   - [Плагины Wox](#%D0%9F%D0%BB%D0%B0%D0%B3%D0%B8%D0%BD%D1%8B-wox)
-    - перечисление с описанием
-- [Другие программы](#%D0%94%D1%80%D1%83%D0%B3%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B)
-  - перечисление с описанием
+    - [CanIUse](#caniuse)
+    - [FileZilla](filezilla)
+    - [Dash.Doc](#dashdoc)
+    - [Browser Bookmarks](#browser-bookmarks)
+- [Другие программы и инструменты](#%D0%94%D1%80%D1%83%D0%B3%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B-%D0%B8-%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B)
+  - [Firefox](#firefox)
+  - [FileZilla](#filezilla-1)
+  - [Облачное хранилище файлов](#%D0%9E%D0%B1%D0%BB%D0%B0%D1%87%D0%BD%D0%BE%D0%B5-%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D0%BB%D0%B8%D1%89%D0%B5-%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2)
 
 ## Sublime Text
 
 [Sublime Text](http://www.sublimetext.com/3) — самый лучший текстовый редактор для веб-разработки. Мастхэв вещи из коробки — это миникарта, мультивыделение и поиск, с помощью регулярных выражений, в том числе по файлам и конечно же тысячи плагинов.
 
-Быстрая и простая установка плагинов доступна после установки системы управления пакетами — [Package Control](https://packagecontrol.io/), после этого надо всего лишь нажать `Ctrl+Shift+P` и набрать `install`.
+Быстрая и простая установка плагинов доступна после установки системы управления пакетами — [Package Control](https://packagecontrol.io/), после этого надо всего лишь нажать <kbd>Ctrl</kbd><kbd>Shift</kbd><kbd>P</kbd> и набрать `install`.
 
 ### Плагины Sublime Text
 
@@ -46,7 +60,7 @@
 
 #### Advanced New File 
 
-[AdvancedNewFile](https://packagecontrol.io/packages/AdvancedNewFile) — Создание новых файлов без диалоговых окон. После нажатия `Ctrl+Alt+N` внизу, у строки состояния появляется строка ввода в которой предлагается ввести имя файла, а в самой строке состояния указывается папка где будет создан файл. Можно настроить папку по умолчанию.
+[AdvancedNewFile](https://packagecontrol.io/packages/AdvancedNewFile) — Создание новых файлов без диалоговых окон. После нажатия <kbd>Ctrl</kbd><kbd>Alt</kbd><kbd>N</kbd> внизу, у строки состояния появляется строка ввода в которой предлагается ввести имя файла, а в самой строке состояния указывается папка где будет создан файл. Можно настроить папку по умолчанию.
 
 #### Golden Ratio
 
@@ -66,13 +80,36 @@
 
 #### bower
 
-[bower](http://bower.io) — это тоже пакетный менеджер :-), но уже для клиентских библиотек, jQuery, bootstrap и т.д. 
+[bower](http://bower.io) — это тоже пакетный менеджер :smile:, но уже для клиентских библиотек, jQuery, bootstrap и т.д. 
 
 #### gulp
 
-[gulp](http://gulpjs.com/) — система управления задачами или по другому — сборщик проектов, как написано на сайте, автоматизирует и повышает эффективность вашего рабочего процесса. 
+[gulp](http://gulpjs.com/) — система управления задачами или по другому — сборщик проектов, как написано на сайте, автоматизирует и повышает эффективность вашего рабочего процесса.
+
+##### gulp плагины 
+
+- del — удаление файлов/папок
+- gulp-concat — объединение файлов
+- gulp-imagemin — оптимизация изображений
+- gulp-livereload — обновление браузера по изменению файлов
+- gulp-load-plugins — подключение gulp плагинов одной строкой
+- gulp-minify-css — минификация css
+- gulp-notify — вывод уведомлений в командной строке и во всплывающей подсказке
+- gulp-plumber — перехват ошибок в gulp
+- gulp-postcss — постпроцессор, это как препроцессоры, но лучше :smile:
+  - autoprefixer-core — плагины для postcss, расставляет автоматически префиксы
+  - postcss-color-function — цветовые функции, lightness, blackness, и т.д.
+  - postcss-simple-vars — переменные в css, объявил 1 раз `$blue: #056ef0;` пользуешся везде `background: $blue;`
+- gulp-rename — переименование файлов
+- gulp-rigger — подключение файлов, include для css/js/html
+- gulp-uglify — минификация js
+- gulp-zip — архивирование
+
+и примерно 1500 других плагинов...
 
 #### jscs
+
+[jscs](http://jscs.info/) — JavaScript Code Style — инструмент, который сообщает обо всех нарушениях кодстайла
 
 ## Консоль
 ### Дополнения
@@ -82,7 +119,7 @@
 
 ## Wox
 
-[Wox](http://getwox.com) — лаунчер, который поможет нам в разработке и сделает ее проще и эффективней. Запускается сочетанием клавиш `Alt+Space`, можно настроить на другое сочетание клавиш.
+[Wox](http://getwox.com) — лаунчер, который поможет нам в разработке и сделает ее проще и эффективней. Запускается сочетанием клавиш <kbd>Alt</kbd><kbd>Space</kbd>, можно настроить на другое сочетание клавиш.
 
 ### Плагины Wox
 
@@ -96,5 +133,5 @@
 ### FileZilla
 ### Облачное хранилище файлов
 * Dropbox
-* Yandeks Disk
+* Yandex.Disk
 * Google Drive
