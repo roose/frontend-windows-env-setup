@@ -1,5 +1,6 @@
 # Настройка рабочего окружения фронтенд разработчика на Windows
 
+- [scoop](#scoop)
 - [Git](#git)
 - [Node.js](#%D0%9F%D0%B0%D0%BA%D0%B5%D1%82%D1%8B-nodejs--npm)
     - [gulp](#gulp)
@@ -15,6 +16,50 @@
   - [Firefox](#firefox)
   - [FileZilla](#filezilla-1)
   - [Облачное хранилище файлов](#%D0%9E%D0%B1%D0%BB%D0%B0%D1%87%D0%BD%D0%BE%D0%B5-%D1%85%D1%80%D0%B0%D0%BD%D0%B8%D0%BB%D0%B8%D1%89%D0%B5-%D1%84%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2)
+
+## scoop
+
+Установщик программ из командной строки.
+
+### Установка
+Открыть PowerShell и выполнить сперва:
+```powershell
+Set-ExecutionPolicy RemoteSigned -scope CurrentUser
+```
+а потом:
+```powershell
+Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
+```
+
+### Использование
+
+Для установки программы выполните:
+```powershell
+scoop install <app>
+```
+Чтобы узнать, нужно ли обновить одну из установленных программ:
+```powershell
+scoop status
+```
+Чтобы обновить программу:
+```powershell
+scoop update <app>
+```
+Можно поискать программу:
+```powershell
+scoop search <app>
+```
+scoop сохраняет все скачанное в кэше, удаление кэша:
+```powershell
+scoop cache #посмотреть кэш
+scoop cache rm <app> #удалить кэш определенной программы
+scoop cache rm * #удалить весь кэш
+```
+scoop сохраняет не удаляет сам старые версии(вдруг вам придется откатиться), удаление старых версий:
+```powershell
+scoop cleanup <app> #удалить старые версии определенной программы
+scoop cleanup * #удалить старые версии всех программ
+```
 
 ## Git
 
