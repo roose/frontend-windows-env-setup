@@ -95,6 +95,25 @@ Set-Theme Paradox
 
 Заново открыв файл настройки **Windows Terminal**, найдите профиль **Windows PowerShell** и добавьте `"fontFace": "Cascadia Code PL"`
 
+## Редактор кода
+**Visual Studio Code** — редактор исходного кода, разработанный Microsoft, имеет широкие возможности для кастомизации: пользовательские темы, сочетания клавиш и файлы конфигурации. Распространяется бесплатно, разрабатывается как программное обеспечение с открытым исходным кодом, установка:
+```powershell
+scoop install vscode
+```
+Список рекомендуемых расширений:
+- Bracket Pair Colorizer 2 — подсветка пар скобок
+- Colorize — визуализация названий/значений цветов, например `red` будет выделен красным цветом
+- Debugger for Firefox/Chrome — дебаггер для Firefox/Chrome
+- Diff — расширения для сравнения файлов
+- EditorConfig for Visual Studio Code — расширения для `.editorconfig` файлов
+- HTML CSS Support — недостающие CSS фичи, дополнения классов и т.д.
+- Markdown All in One — предосмотр md файлов
+- Npm Intellisense — дополнение `npm` модулей
+- Path Intellisense — дополнение путей
+- PostCSS Language Support — подержка `PostCSS` синтаксиса
+- Prettier - Code formatter — форматирование кода
+- SVG Viewer — предосмотр SVG файлов
+
 ## Git
 
 [Git](https://ru.wikipedia.org/wiki/Git) — это легкая в исользовании система управления файлами, даже если вы **пока** не используете Git, после установки вам будет доступны некоторые linux команды в консоли. Для работы с git обычно используют [GitHub](http://github.com). GitHub предлагает свой [GUI клиент](https://windows.github.com/) для работы с git. После установки клиента, вам будет доступны так же и инструменты для работы с git из командной строки. Бесплатная книга по git — [Pro Git](http://git-scm.com/book/ru/v2) на русском.
