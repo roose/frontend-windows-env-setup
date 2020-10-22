@@ -1,14 +1,5 @@
 # Настройка рабочего окружения фронтенд разработчика на Windows
 
-- [Sublime Text](#sublime-text)
-  - [Плагины Sublime Text](#%D0%9F%D0%BB%D0%B0%D0%B3%D0%B8%D0%BD%D1%8B-sublime-text)
-    - [SFTP](#sftp)
-    - [Sidebar Enhancements](#sidebar-enhancements)
-    - [Emmet](#emmet)
-    - [Auto File Name](#auto-file-name)
-    - [Color Highlighter](#color-highlighter)
-    - [Advanced New File](#advanced-new-file)
-    - [Golden Ratio](#golden-ratio)
 - [Git](#git)
 - [Node.js](#%D0%9F%D0%B0%D0%BA%D0%B5%D1%82%D1%8B-nodejs--npm)
     - [gulp](#gulp)
@@ -76,10 +67,6 @@
 
 [npm](http://npmjs.com) — это менеджер пакетов для node.js
 
-#### bower
-
-[bower](http://bower.io) — это тоже пакетный менеджер :smile:, но уже для клиентских библиотек, jQuery, bootstrap и т.д. 
-
 #### gulp
 
 [gulp](http://gulpjs.com/) — система управления задачами или по другому — сборщик проектов, как написано на сайте, автоматизирует и повышает эффективность вашего рабочего процесса.
@@ -104,10 +91,6 @@
 - gulp-zip — архивирование
 
 и примерно 1500 других плагинов...
-
-#### jscs
-
-[jscs](http://jscs.info/) — JavaScript Code Style — инструмент, который сообщает обо всех нарушениях кодстайла
 
 ## Консоль
 ### Дополнения
