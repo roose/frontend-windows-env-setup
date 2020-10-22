@@ -150,7 +150,3 @@ scoop install yarn
 ## Другие программы и инструменты
 ### Firefox
 ### FileZilla
-### Облачное хранилище файлов
-* Dropbox
-* Yandex.Disk
-* Google Drive
