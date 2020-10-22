@@ -136,6 +136,14 @@ scoop install nodejs # последняя версия nodejs
 
 [npm](http://npmjs.com) — это менеджер пакетов для node.js, устанавливается вместе с nodejs
 
+### Пакеты node.js — yarn
+[yarn](https://yarnpkg.com/lang/en/) — это альтернативный менеджер пакетов для node.js
+
+Установка:
+```powershell
+scoop install yarn
+```
+
 #### gulp
 
 [gulp](http://gulpjs.com/) — система управления задачами или по другому — сборщик проектов, как написано на сайте, автоматизирует и повышает эффективность вашего рабочего процесса.
