@@ -11,7 +11,7 @@
 
 ## scoop
 
-Установщик программ из командной строки.
+[scoop](https://scoop.sh/) — это установщик программ из командной строки.
 
 ### Установка
 Открыть PowerShell и выполнить сперва:
@@ -43,18 +43,18 @@ scoop search <app>
 ```
 scoop сохраняет все скачанное в кэше, удаление кэша:
 ```powershell
-scoop cache #посмотреть кэш
-scoop cache rm <app> #удалить кэш определенной программы
-scoop cache rm * #удалить весь кэш
+scoop cache # посмотреть кэш
+scoop cache rm <app> # удалить кэш определенной программы
+scoop cache rm * # удалить весь кэш
 ```
 scoop сохраняет не удаляет сам старые версии(вдруг вам придется откатиться), удаление старых версий:
 ```powershell
-scoop cleanup <app> #удалить старые версии определенной программы
-scoop cleanup * #удалить старые версии всех программ
+scoop cleanup <app> # удалить старые версии определенной программы
+scoop cleanup * # удалить старые версии всех программ
 ```
 
 ## Консоль
-Первое что вы должны установить после того как разбёретесь со **scoop** — это терминал, мы будем использовать **Windows Terminal**:
+Первое что вы должны установить после того как разберётесь со **scoop** — это терминал, мы будем использовать **Windows Terminal**:
 ```powershell
 scoop install windows-terminal
 ```
@@ -86,6 +86,8 @@ Set-Theme Paradox
 ```
 `$PROFILE` это профиль **PowerShell**, не **Windows Terminal**
 
+![](data/wt.png)
+
 ## Редактор кода
 **Visual Studio Code** — редактор исходного кода, разработанный Microsoft, имеет широкие возможности для кастомизации: пользовательские темы, сочетания клавиш и файлы конфигурации. Распространяется бесплатно, разрабатывается как программное обеспечение с открытым исходным кодом, установка:
 ```powershell
@@ -98,16 +100,18 @@ scoop install vscode
 - Diff — расширения для сравнения файлов
 - EditorConfig for Visual Studio Code — расширения для `.editorconfig` файлов
 - HTML CSS Support — недостающие CSS фичи, дополнения классов и т.д.
-- Markdown All in One — предосмотр md файлов
+- Markdown All in One — предпросмотр md файлов
 - Npm Intellisense — дополнение `npm` модулей
 - Path Intellisense — дополнение путей
-- PostCSS Language Support — подержка `PostCSS` синтаксиса
+- PostCSS Language Support — поддержка `PostCSS` синтаксиса
 - Prettier - Code formatter — форматирование кода
-- SVG Viewer — предосмотр SVG файлов
+- SVG Viewer — предпросмотр SVG файлов
+
+![](data/code.png)
 
 ## Git
 
-[Git](https://ru.wikipedia.org/wiki/Git) — это легкая в исользовании система управления файлами, даже если вы **пока** не используете Git, после установки вам будет доступны некоторые linux команды в консоли. Для работы с git обычно используют [GitHub](http://github.com). GitHub предлагает свой [GUI клиент](https://windows.github.com/) для работы с git. После установки клиента, вам будет доступны так же и инструменты для работы с git из командной строки. Бесплатная книга по git — [Pro Git](http://git-scm.com/book/ru/v2) на русском.
+[Git](https://ru.wikipedia.org/wiki/Git) — это легкая в использовании система управления файлами, даже если вы **пока** не используете Git, после установки вам будет доступны некоторые linux команды в консоли. Для работы с git обычно используют [GitHub](http://github.com). GitHub предлагает свой [GUI клиент](https://windows.github.com/) для работы с git. После установки клиента, вам будет доступны так же и инструменты для работы с git из командной строки. Бесплатная книга по git — [Pro Git](http://git-scm.com/book/ru/v2) на русском.
 
 Установка:
 ```powershell
@@ -149,6 +153,8 @@ scoop install yarn
 - [StackOverlow](https://github.com/amalyushko/Wox.Plugin.StackOverlow) - поиск вопросов Stack Overflow. `wpm install stack overflow`
 - [Github](https://github.com/JohnTheGr8/Wox.Plugin.Github) - поиск github репозиториев, пользователей, просмотр ишью и пулл реквестов `wpm install github`
 
+![](data/wox.png)
+
 ## Другие программы и инструменты
 - [Firefox](https://www.mozilla.org/ru/firefox/new/) — браузер Firefox `scoop install firefox` или `scoop install firefox-developer` 
 - [Chrome](https://www.google.com/intl/ru/chrome/) — браузер Chrome `scoop install googlechrome` или `scoop install googlechrome-canary` 
@@ -161,7 +167,7 @@ scoop install yarn
 - [notion](https://www.notion.so/) — приложение, которое предоставляет такие компоненты, как базы данных, доски канбан, вики, календари и напоминания. `scoop install notion` 
 - [optipng](http://optipng.sourceforge.net/) — PNG оптимизатор `scoop install devdocs` 
 - [scoop-completion](https://github.com/Moeologist/scoop-completion) — дополнение `scoop` команд в терминале `scoop install scoop-completion` 
-- [stretchly](https://hovancik.net/stretchly/) — Напоминатель о необходимости перерывов `scoop install stretchly` 
+- [stretchly](https://hovancik.net/stretchly/) — Напоминает о необходимости перерывов `scoop install stretchly` 
 - [touch](https://github.com/lukesampson/psutils) — создание файлов в терминале `scoop install touch` 
 - [typora](https://typora.io/) — редактор markdown файлов `scoop install typora` 
-- [win-cli](https://github.com/roose/win-cli) — тулзы для Windows терминала `scoop install win-cli` 
+- [win-cli](https://github.com/roose/win-cli) — полезная тулза для Windows терминала `scoop install win-cli` 
