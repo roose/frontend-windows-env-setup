@@ -148,5 +148,18 @@ scoop install yarn
 - Github - поиск github репозиториев, пользователей, просмотр ишью и пулл реквестов
 
 ## Другие программы и инструменты
-### Firefox
-### FileZilla
+- [Firefox](https://www.mozilla.org/ru/firefox/new/) — браузер Firefox `scoop install firefox` или `scoop install firefox-developer` 
+- [Chrome](https://www.google.com/intl/ru/chrome/) — браузер Chrome `scoop install googlechrome` или `scoop install googlechrome-canary` 
+- [FileZilla](https://filezilla-project.org/) — FTP клиент `scoop install filezilla` 
+- [bat](https://github.com/sharkdp/bat) — клон `cat` с подсветкой синтаксиса и интеграцией с Git `scoop install bat` 
+- [devdocs](https://github.com/egoist/devdocs-desktop) — Десктопная версия сайта DevDocs.io `scoop install devdocs` 
+- [gsudo](https://github.com/gerardog/gsudo) — sudo для Windows `scoop install gsudo` 
+- [insomnia](https://insomnia.rest/) — REST Client для тестирования и проектирования REST API `scoop install insomnia` 
+- [jpegtran](https://ruhighload.com/jpegtran) — JPEG кодировщик `scoop install mozjpeg` 
+- [notion](https://www.notion.so/) — приложение, которое предоставляет такие компоненты, как базы данных, доски канбан, вики, календари и напоминания. `scoop install notion` 
+- [optipng](http://optipng.sourceforge.net/) — PNG оптимизатор `scoop install devdocs` 
+- [scoop-completion](https://github.com/Moeologist/scoop-completion) — дополнение `scoop` команд в терминале `scoop install scoop-completion` 
+- [stretchly](https://hovancik.net/stretchly/) — Напоминатель о необходимости перерывов `scoop install stretchly` 
+- [touch](https://github.com/lukesampson/psutils) — создание файлов в терминале `scoop install touch` 
+- [typora](https://typora.io/) — редактор markdown файлов `scoop install typora` 
+- [win-cli](https://github.com/roose/win-cli) — тулзы для Windows терминала `scoop install win-cli` 
