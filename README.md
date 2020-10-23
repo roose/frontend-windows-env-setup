@@ -1,5 +1,7 @@
 # Настройка рабочего окружения фронтенд разработчика на Windows
 
+**Внимание**: это новая версия, старая версия [тут](https://github.com/roose/frontend-windows-env-setup/blob/1.0.0/README.md)
+
 - [scoop](#scoop)
 - [Консоль](#%D0%9A%D0%BE%D0%BD%D1%81%D0%BE%D0%BB%D1%8C)
 - [Git](#git)
