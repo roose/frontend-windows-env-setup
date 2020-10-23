@@ -8,6 +8,7 @@
 - [Node.js](#nodejs)
 - [Wox](#wox)
 - [Другие программы и инструменты](#%D0%94%D1%80%D1%83%D0%B3%D0%B8%D0%B5-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B-%D0%B8-%D0%B8%D0%BD%D1%81%D1%82%D1%80%D1%83%D0%BC%D0%B5%D0%BD%D1%82%D1%8B)
+- [Папка проектов](#Папка проектов)
 
 ## scoop
 
@@ -171,3 +172,7 @@ scoop install yarn
 - [touch](https://github.com/lukesampson/psutils) — создание файлов в терминале `scoop install touch` 
 - [typora](https://typora.io/) — редактор markdown файлов `scoop install typora` 
 - [win-cli](https://github.com/roose/win-cli) — полезная тулза для Windows терминала `scoop install win-cli` 
+
+## Папка проектов
+
+Рекомендую создать папку `~\projects` и там хранить все свои проекты, можете как я разделить их дополнительно на `~\projects\code` и `~\projects\sandbox`, все эксперименты, располагать в папке `~\projects\sandbox`, а если эти эксперименты станут достойны того чтобы разместить их на github, то переносите их в `~\projects\code`. 
