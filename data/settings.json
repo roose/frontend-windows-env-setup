@@ -1,0 +1,88 @@
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+
+    "defaultProfile": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+
+    "initialCols": 120,
+    "initialRows": 30,
+    "launchMode": "default",
+    "copyOnSelect": false,
+    "copyFormatting": false,
+    "showTabsInTitlebar": true,
+    "showTerminalTitleInTitlebar": true,
+    "useTabSwitcher": false,
+    "theme": "dark",
+    "profiles":
+    {
+        "defaults":
+        {
+
+        },
+        "list":
+        [
+            {
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "name": "Windows PowerShell",
+                "commandline": "powershell.exe",
+                "fontFace": "Cascadia Code PL",
+                "fontSize": 12,
+                "fontWeight": "semi-light",
+                "antialiasingMode": "cleartype",
+                "colorScheme": "Monokai Cmder",
+                "tabColor": "#272822",
+                "hidden": false
+            },
+            {
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "name": "Command Prompt",
+                "commandline": "cmd.exe",
+                "fontSize": 12,
+                "fontWeight": "light",
+                "antialiasingMode": "cleartype",
+                "colorScheme": "Monokai Cmder",
+                "hidden": false
+            },
+            {
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "hidden": false,
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl"
+            }
+        ]
+    },
+    "schemes": [
+        {
+          "name": "Monokai Cmder",
+          "cursorColor": "#FFFFFF",
+          "selectionBackground": "#cccc81",
+          "background": "#272822",
+          "foreground": "#cacaca",
+          "black": "#272822",
+          "red": "#a70334",
+          "green": "#74aa04",
+          "yellow": "#b6b649",
+          "blue": "#01549e",
+          "purple": "#89569c",
+          "cyan": "#1a83a6",
+          "white": "#cacaca",
+          "brightBlack": "#7c7c7c",
+          "brightRed": "#f3044b",
+          "brightGreen": "#8dd006",
+          "brightYellow": "#cccc81",
+          "brightBlue": "#0383f5",
+          "brightPurple": "#a87db8",
+          "brightCyan": "#58c2e5",
+          "brightWhite": "#ffffff"
+        }
+    ],
+
+    "keybindings":
+    [
+        {"command": "closeTab", "keys": "ctrl+w"},
+        { "command": {"action": "copy", "singleLine": false }, "keys": "ctrl+c" },
+        { "command": "paste", "keys": "ctrl+v" },
+        { "command": "find", "keys": "ctrl+f" },
+        { "command": "selectAll", "keys": "ctrl+a" },
+        { "command": { "action": "splitPane", "split": "auto", "splitMode": "duplicate" }, "keys": "alt+shift+d" }
+    ]
+}
