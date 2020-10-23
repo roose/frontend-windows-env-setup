@@ -71,6 +71,7 @@ scoop bucket add nerd-fonts
 ```powershell
 scoop install Cascadia-Code
 ```
+Заново открыв файл настройки **Windows Terminal**, найдите профиль **Windows PowerShell** и добавьте `"fontFace": "Cascadia Code PL"`
 
 Этот шрифт нужен для нормального отображения приглашения `oh-my-posh`, устанавливаем `oh-my-posh`(и заодно `posh-git`):
 ```powershell
@@ -84,8 +85,6 @@ Import-Module oh-my-posh
 Set-Theme Paradox
 ```
 `$PROFILE` это профиль **PowerShell**, не **Windows Terminal**
-
-Заново открыв файл настройки **Windows Terminal**, найдите профиль **Windows PowerShell** и добавьте `"fontFace": "Cascadia Code PL"`
 
 ## Редактор кода
 **Visual Studio Code** — редактор исходного кода, разработанный Microsoft, имеет широкие возможности для кастомизации: пользовательские темы, сочетания клавиш и файлы конфигурации. Распространяется бесплатно, разрабатывается как программное обеспечение с открытым исходным кодом, установка:
