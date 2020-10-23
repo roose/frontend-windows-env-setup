@@ -139,13 +139,14 @@ scoop install yarn
 [Wox](http://getwox.com) — лаунчер, который поможет нам в разработке и сделает ее проще и эффективней. Запускается сочетанием клавиш <kbd>Alt</kbd><kbd>Space</kbd>, можно настроить на другое сочетание клавиш.
 
 ### Плагины Wox
+Плагины устанавливаются в самом Wox'e, просто напишите `wpm install <app>`
 
-- CanIUse — проверка поддержки технологий на сайте caniuse.com
-- FileZilla — быстрое открытие сайта в FileZilla
-- npm search — поиск модулей npm
-- PostCSS Search — поиск модулей PostCSS
-- StackOverlow - поиск вопросов Stack Overflow.
-- Github - поиск github репозиториев, пользователей, просмотр ишью и пулл реквестов
+- [CanIUse](https://github.com/roose/Wox.Plugin.CanIUse) — проверка поддержки технологий на сайте caniuse.com `wpm install caniuse`
+- [FileZilla](https://github.com/roose/Wox.Plugin.OpenInFileZilla) — быстрое открытие сайта в FileZilla `wpm install filezilla`
+- [npm search](https://github.com/roose/wox-npms-search) — поиск модулей npm, ручная установка, скачать релиз и перетащить в окно Wox
+- [PostCSS Search](https://github.com/roose/wox-postcss-search) — поиск модулей PostCSS, ручная установка, скачать релиз и перетащить в окно Wox
+- [StackOverlow](https://github.com/amalyushko/Wox.Plugin.StackOverlow) - поиск вопросов Stack Overflow. `wpm install stack overflow`
+- [Github](https://github.com/JohnTheGr8/Wox.Plugin.Github) - поиск github репозиториев, пользователей, просмотр ишью и пулл реквестов `wpm install github`
 
 ## Другие программы и инструменты
 - [Firefox](https://www.mozilla.org/ru/firefox/new/) — браузер Firefox `scoop install firefox` или `scoop install firefox-developer` 
