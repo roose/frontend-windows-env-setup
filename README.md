@@ -87,6 +87,8 @@ Set-Theme Paradox
 ```
 `$PROFILE` это профиль **PowerShell**, не **Windows Terminal**
 
+Вы можете посмотреть пример файла [настроек](data/settings.json) **Windows Terminal** и [профиля](data/Microsoft.PowerShell_profile.ps1)  **PowerShell**
+
 ![](data/wt.png)
 
 ## Редактор кода
