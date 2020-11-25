@@ -177,6 +177,7 @@ scoop install yarn
 - [insomnia](https://insomnia.rest/) — REST Client для тестирования и проектирования REST API `scoop install insomnia` 
 - [jpegtran](https://ruhighload.com/jpegtran) — JPEG кодировщик `scoop install mozjpeg` 
 - [notion](https://www.notion.so/) — приложение, которое предоставляет такие компоненты, как базы данных, доски канбан, вики, календари и напоминания. `scoop install notion` 
+- [npm-check-updates](https://github.com/raineorshine/npm-check-updates) — обновление ваших package.json зависимостей `npm install -g npm-check-updates`
 - [optipng](http://optipng.sourceforge.net/) — PNG оптимизатор `scoop install devdocs` 
 - [scoop-completion](https://github.com/Moeologist/scoop-completion) — дополнение `scoop` команд в терминале `scoop install scoop-completion` 
 - [stretchly](https://hovancik.net/stretchly/) — Напоминает о необходимости перерывов `scoop install stretchly` 
