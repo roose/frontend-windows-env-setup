@@ -181,6 +181,7 @@ scoop install yarn
 - [optipng](http://optipng.sourceforge.net/) — PNG оптимизатор `scoop install devdocs` 
 - [scoop-completion](https://github.com/Moeologist/scoop-completion) — дополнение `scoop` команд в терминале `scoop install scoop-completion` 
 - [stretchly](https://hovancik.net/stretchly/) — Напоминает о необходимости перерывов `scoop install stretchly` 
+- [svgo](https://github.com/svg/svgo) — SVG оптимизатор `npm install -g svgo`
 - [touch](https://github.com/lukesampson/psutils) — создание файлов в терминале `scoop install touch` 
 - [typora](https://typora.io/) — редактор markdown файлов `scoop install typora` 
 - [win-cli](https://github.com/roose/win-cli) — полезная тулза для Windows терминала `scoop install win-cli` 
