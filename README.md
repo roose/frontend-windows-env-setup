@@ -178,6 +178,7 @@ scoop install yarn
 - [jpegtran](https://ruhighload.com/jpegtran) — JPEG кодировщик `scoop install mozjpeg` 
 - [notion](https://www.notion.so/) — приложение, которое предоставляет такие компоненты, как базы данных, доски канбан, вики, календари и напоминания. `scoop install notion` 
 - [npm-check-updates](https://github.com/raineorshine/npm-check-updates) — обновление ваших package.json зависимостей `npm install -g npm-check-updates`
+- [npm-completion](https://github.com/PowerShell-Completion/npm-completion) — дополнение `npm` команд в терминале `Install-Module npm-completion -Scope CurrentUser`
 - [optipng](http://optipng.sourceforge.net/) — PNG оптимизатор `scoop install devdocs` 
 - [scoop-completion](https://github.com/Moeologist/scoop-completion) — дополнение `scoop` команд в терминале `scoop install scoop-completion` 
 - [stretchly](https://hovancik.net/stretchly/) — Напоминает о необходимости перерывов `scoop install stretchly` 
@@ -185,6 +186,8 @@ scoop install yarn
 - [touch](https://github.com/lukesampson/psutils) — создание файлов в терминале `scoop install touch` 
 - [typora](https://typora.io/) — редактор markdown файлов `scoop install typora` 
 - [win-cli](https://github.com/roose/win-cli) — полезная тулза для Windows терминала `scoop install win-cli` 
+
+Для того чтобы дополнения команд типа `npm-completion`, `scoop-completion` заработали нужно выполнить их импорт в профиле PowerShell, смотрите инструкции в репозитории проекта(кроме дополнения команд `git`, оно устанавливается автоматически с `posh-git`).
 
 ## Папка проектов
 
