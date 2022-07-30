@@ -97,17 +97,17 @@ Set-Theme Paradox
 scoop install vscode
 ```
 Список рекомендуемых расширений:
-- Bracket Pair Colorizer 2 — подсветка пар скобок
+- ~~Bracket Pair Colorizer 2 — подсветка пар скобок~~ больше не нужно, встроено в VSCode
 - Colorize — визуализация названий/значений цветов, например `red` будет выделен красным цветом
 - Debugger for Firefox/Chrome — дебаггер для Firefox/Chrome
 - Diff — расширения для сравнения файлов
 - EditorConfig for Visual Studio Code — расширения для `.editorconfig` файлов
 - HTML CSS Support — недостающие CSS фичи, дополнения классов и т.д.
 - Markdown All in One — предпросмотр md файлов
-- Npm Intellisense — дополнение `npm` модулей
-- Path Intellisense — дополнение путей
+- ~~Npm Intellisense — дополнение `npm` модулей~~ больше не нужно, встроено в VSCode
+- ~~Path Intellisense — дополнение путей~~ больше не нужно, встроено в VSCode
 - PostCSS Language Support — поддержка `PostCSS` синтаксиса
-- Prettier - Code formatter — форматирование кода
+- ~~Prettier - Code formatter — форматирование кода~~ больше не нужно, встроено в VSCode
 - SVG Viewer — предпросмотр SVG файлов
 
 ![](data/code.png)
@@ -168,27 +168,27 @@ scoop install yarn
 ![](data/wox.png)
 
 ## Другие программы и инструменты
-- [Firefox](https://www.mozilla.org/ru/firefox/new/) — браузер Firefox `scoop install firefox` или `scoop install firefox-developer` 
-- [Chrome](https://www.google.com/intl/ru/chrome/) — браузер Chrome `scoop install googlechrome` или `scoop install googlechrome-canary` 
-- [FileZilla](https://filezilla-project.org/) — FTP клиент `scoop install filezilla` 
-- [bat](https://github.com/sharkdp/bat) — клон `cat` с подсветкой синтаксиса и интеграцией с Git `scoop install bat` 
-- [devdocs](https://github.com/egoist/devdocs-desktop) — Десктопная версия сайта DevDocs.io `scoop install devdocs` 
-- [gsudo](https://github.com/gerardog/gsudo) — sudo для Windows `scoop install gsudo` 
-- [insomnia](https://insomnia.rest/) — REST Client для тестирования и проектирования REST API `scoop install insomnia` 
-- [jpegtran](https://ruhighload.com/jpegtran) — JPEG кодировщик `scoop install mozjpeg` 
-- [notion](https://www.notion.so/) — приложение, которое предоставляет такие компоненты, как базы данных, доски канбан, вики, календари и напоминания. `scoop install notion` 
+- [Firefox](https://www.mozilla.org/ru/firefox/new/) — браузер Firefox `scoop install firefox` или `scoop install firefox-developer`
+- [Chrome](https://www.google.com/intl/ru/chrome/) — браузер Chrome `scoop install googlechrome` или `scoop install googlechrome-canary`
+- [FileZilla](https://filezilla-project.org/) — FTP клиент `scoop install filezilla`
+- [bat](https://github.com/sharkdp/bat) — клон `cat` с подсветкой синтаксиса и интеграцией с Git `scoop install bat`
+- [devdocs](https://github.com/egoist/devdocs-desktop) — Десктопная версия сайта DevDocs.io `scoop install devdocs`
+- [gsudo](https://github.com/gerardog/gsudo) — sudo для Windows `scoop install gsudo`
+- [insomnia](https://insomnia.rest/) — REST Client для тестирования и проектирования REST API `scoop install insomnia`
+- [jpegtran](https://ruhighload.com/jpegtran) — JPEG кодировщик `scoop install mozjpeg`
+- [notion](https://www.notion.so/) — приложение, которое предоставляет такие компоненты, как базы данных, доски канбан, вики, календари и напоминания. `scoop install notion`
 - [npm-check-updates](https://github.com/raineorshine/npm-check-updates) — обновление ваших package.json зависимостей `npm install -g npm-check-updates`
 - [npm-completion](https://github.com/PowerShell-Completion/npm-completion) — дополнение `npm` команд в терминале `Install-Module npm-completion -Scope CurrentUser`
-- [optipng](http://optipng.sourceforge.net/) — PNG оптимизатор `scoop install devdocs` 
-- [scoop-completion](https://github.com/Moeologist/scoop-completion) — дополнение `scoop` команд в терминале `scoop install scoop-completion` 
-- [stretchly](https://hovancik.net/stretchly/) — Напоминает о необходимости перерывов `scoop install stretchly` 
+- [optipng](http://optipng.sourceforge.net/) — PNG оптимизатор `scoop install devdocs`
+- [scoop-completion](https://github.com/Moeologist/scoop-completion) — дополнение `scoop` команд в терминале `scoop install scoop-completion`
+- [stretchly](https://hovancik.net/stretchly/) — Напоминает о необходимости перерывов `scoop install stretchly`
 - [svgo](https://github.com/svg/svgo) — SVG оптимизатор `npm install -g svgo`
-- [touch](https://github.com/lukesampson/psutils) — создание файлов в терминале `scoop install touch` 
-- [typora](https://typora.io/) — редактор markdown файлов `scoop install typora` 
-- [win-cli](https://github.com/roose/win-cli) — полезная тулза для Windows терминала `scoop install win-cli` 
+- [touch](https://github.com/lukesampson/psutils) — создание файлов в терминале `scoop install touch`
+- [typora](https://typora.io/) — редактор markdown файлов `scoop install typora`
+- [win-cli](https://github.com/roose/win-cli) — полезная тулза для Windows терминала `scoop install win-cli`
 
 Для того чтобы дополнения команд типа `npm-completion`, `scoop-completion` заработали нужно выполнить их импорт в профиле PowerShell, смотрите инструкции в репозитории проекта(кроме дополнения команд `git`, оно устанавливается автоматически с `posh-git`).
 
 ## Папка проектов
 
-Рекомендую создать папку `~\projects` и там хранить все свои проекты, можете как я разделить их дополнительно на `~\projects\code` и `~\projects\sandbox`, все эксперименты, располагать в папке `~\projects\sandbox`, а если эти эксперименты станут достойны того чтобы разместить их на github, то переносите их в `~\projects\code`. 
+Рекомендую создать папку `~\projects` и там хранить все свои проекты, можете как я разделить их дополнительно на `~\projects\code` и `~\projects\sandbox`, все эксперименты, располагать в папке `~\projects\sandbox`, а если эти эксперименты станут достойны того чтобы разместить их на github, то переносите их в `~\projects\code`.
